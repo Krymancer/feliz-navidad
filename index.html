@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Natal Meus Amigos!</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <audio autoplay loop src="./assets/audio/music.mp3" id="audio"></audio>
+
+  <div id="santas" class="m-3 flex flex-row hidden">
+    <img src="./assets/images/santa-dancer.gif" />
+    <img src="./assets/images/santa-rock.gif" />
+  </div>
+
+  <div id="message" class="p-10 text-xl text-white mb-5">
+    Clique na carta para abrir seu presente!
+  </div>
+
+  <div class="m-5"></div>
+
+  <div id="letter" class="wrapper">
+    <div class="lid one"></div>
+    <div class="lid two"></div>
+    <div class="envelope"></div>
+    <div class="letter">
+      <p>Feliz Natal!</p>
+    </div>
+  </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
